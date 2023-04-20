@@ -4,7 +4,7 @@
     <!-- The <title> element is placed inside the <head> element 
      and specifies the title of your webpage, which is displayed 
      in the title bar or tab of the browser.-->
-    <title>First Meeting Minutes</title>
+    <title>Using &lt;span&gt;</title>
     <!--The <meta> elements are also placed inside the <head> 
       used to provide additional information about your webpage, 
       such as the description of your website for search engines,
@@ -14,5 +14,55 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   </head>
   <body>
+    <header>
+    <h1>First Meeting Minutes</h1>  
+    <div><h2>Table of contents</h2></div><hr>
+    </header>
+    
+    <nav>
+      <ol>
+        <li><a href="#brainstorming">Brainstorming</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#attendance">Attendance</a></li>
+        <li><a href="#documentations">Documentations</a></li>
+      </ol>
+    </nav>
+
+    <main>
+      <section id="brainstorming">
+        <h2>Brainstorming</h2><hr>
+        <p>This is a paragraph with some <span>generic inline content</span> using the &lt;span&gt; tag.</p>
+        <p>This is a <b>bold text</b> example.</p>
+        <p>This is an example of <strong>important text</strong> that needs emphasis.</p>
+        <p>This is an <i>italicized text</i> example.</p>
+        <p>This is an <em>emphasized text</em><br> example.</p>
+        <img src="LKN_4007.jpg" alt="wandering"/>
+       
+      </section>
+      <section id="Agenda">
+        <h2>Agenda</h2><hr>
+          <h3>- Date</h3>
+      </section>
+      <section id="Attendance">
+        <h2>Attendance</h2><hr>
+          <ul>
+            <li>Mike</li>
+            <li>Lisa</li>
+            <li>Catherine</li>
+          </ul>
+      </section>
+      <section id="Documentations">
+        <h2>Documentations</h2><hr>
+          <h3>- audio recording the meeting </h3>
+           <audio src="audio.mp3" controls></audio>
+       
+          <h3>- video recording the meeting</h3>
+          <video src="video.mp4" controls></video>
+
+      </section>
+    <footer>
+
+    </footer>
+    </main>
   </body>
 </html>
